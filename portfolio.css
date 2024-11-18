@@ -1,0 +1,284 @@
+html{
+    background-color: #c23e34;
+    margin: 0;
+}
+
+body{
+    margin: auto 0;
+    overflow-x: hidden;
+    
+}
+
+nav{
+    z-index: 5;
+    position: fixed;
+    top: 0px;
+    width: 100%
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:#df9494;
+    overflow: hidden;
+    text-align: center;
+}
+
+nav li{
+    float: left;
+}
+
+nav li a{
+    float: left;
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+li a:hover{
+    background-color: rgb(214, 38, 38);
+}
+
+.PortfolioHead1 h1{
+    position: absolute;
+    font-size: 100pt;
+    color: black;
+    top: -10px;
+    left: 680px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.PortfolioHead2 h1{
+    color:rgb(113, 156, 196);
+    position: absolute;
+    font-size: 100pt;
+    top: -10px;
+    left: 675px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.Best1{
+    position: absolute;
+    top: -40px;
+    left: -500px;
+    scale: 25%;
+    transition: transform .7s;
+}
+
+.Best1:hover{
+    transform: scale(1.25);
+}
+
+.Best2{
+    position: absolute;
+    top: -40px;
+    left: 50px;
+    scale: 25%;
+    transition: transform .7s;
+}
+
+.Best2:hover{
+    transform: scale(1.25);
+}
+
+.Best3{
+    position: absolute;
+    top: 260px;
+    left: -500px;
+    scale: 25%;
+    transition: transform .7s;
+}
+
+.Best3:hover{
+    transform: scale(1.25);
+}
+
+.Best4{
+    position: absolute;
+    top: 260px;
+    left: 50px;
+    scale: 25%;
+    transition: transform .7s;
+}
+
+.Best4:hover{
+    transform: scale(1.25);
+}
+
+.BenBrand{
+    position: absolute;
+    font-size: 20pt;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    top: 310px;
+    left: 1200px;
+}
+
+.Omaha1{
+    position: absolute;
+    top: 600px;
+    left: 910px;
+    scale: 27%;
+    transition: transform .7s;
+}
+
+.Omaha1:hover{
+    transform: scale(1.25);
+}
+
+.Omaha2{
+    position: absolute;
+    top: 900px;
+    left: 910px;
+    scale: 27%;
+    transition: transform .7s;
+}
+
+.Omaha2:hover{
+    transform: scale(1.25);
+}
+
+.Omaha3{
+    position: absolute;
+    top: 730px;
+    left: 400px;
+    scale: 27%;
+    transition: transform .7s;
+}
+
+.Omaha3:hover{
+    transform: scale(1.25);
+}
+
+.OmahaBrand{
+    position: absolute;
+    font-size: 20pt;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    top: 930px;
+    left: 180px;
+    text-align: center;
+}
+
+.Coqual{
+    position: absolute;
+    top: 1400px;
+    left: -200px;
+    scale: 60%;
+    transition: transform .7s;
+}
+
+.Coqual:hover{
+    transform: scale(1.03);
+}
+
+.PortDecal1{
+    z-index: -1;
+    position: absolute;
+    scale: 60%;
+    opacity: 20%;
+    left: 800px;
+}
+
+.PortDecal2{
+    z-index: -1;
+    position: absolute;
+    scale: 60%;
+    opacity: 50%;
+    left: -1100px;
+    top: -1900px;
+    transform: rotate(180deg);
+}
+
+.Decal{
+    z-index: -1;
+    position: absolute;
+    top:-80px;
+    left:-90px;
+    transform: rotate(90deg);
+    scale: 40%;
+    opacity: 50%;
+}
+
+.CoqualBrand{
+    position: absolute;
+    top: 1650px;
+    left: 1300px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20pt;
+}
+
+#rectangle{
+    z-index: -2;
+    background-color: rgb(211, 113, 96);
+    width: 200%;
+    height: 950px;
+    left:-70px;
+    top: 690px;
+    position: absolute;
+    opacity: 80%;
+}
+
+#rectangle1{
+    z-index: 1;
+    background-color: rgb(143, 66, 53);
+    width: 30%;
+    height: 170px;
+    left:1215px;
+    top: 480px;
+    position: absolute;
+    opacity: 80%;
+}
+
+.AboutBens{
+    z-index: 2;
+    position: absolute;
+    top: 470px;
+    left: 1235px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20pt;
+}
+
+#rectangle2{
+    z-index: 1;
+    background-color: rgb(151, 55, 39);
+    width: 30%;
+    height: 190px;
+    left:130px;
+    top: 1130px;
+    position: absolute;
+    opacity: 80%;
+}
+
+.AboutOmaha{
+    z-index: 2;
+    text-align: right;
+    position: absolute;
+    top: 1110px;
+    left: 140px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20pt;
+}
+
+#rectangle3{
+    z-index: 1;
+    background-color: rgb(146, 63, 48);
+    width: 30%;
+    height: 200px;
+    left:1280px;
+    top: 1800px;
+    position: absolute;
+    opacity: 80%;
+}
+
+.AboutCoqual{
+    z-index: 2;
+    text-align: left;
+    position: absolute;
+    top: 1780px;
+    left: 1290px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20pt;
+}

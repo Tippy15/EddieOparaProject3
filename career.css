@@ -1,0 +1,346 @@
+html{
+    background-color: #e7e09a;
+    margin: 0;
+}
+
+body{
+    margin: auto 0;
+    overflow-x: hidden;
+    
+}
+
+nav{
+    z-index: 5;
+    position: fixed;
+    top: 0px;
+    width: 100%
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:#b8af39;
+    overflow: hidden;
+    text-align: center;
+}
+
+nav li{
+    float: left;
+}
+
+nav li a{
+    float: left;
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+li a:hover{
+    background-color: rgb(99, 97, 18);
+}
+
+.CareerHead1 h1{
+    position: absolute;
+    font-size: 100pt;
+    color: black;
+    top: -10px;
+    left: 780px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.CareerHead2 h1{
+    color:rgb(92, 161, 121);
+    position: absolute;
+    font-size: 100pt;
+    top: -10px;
+    left: 775px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.CareerDecals1{
+    z-index: -1;
+    position: absolute;
+    top: -900px;
+    opacity: 30%;
+    scale: 50%;
+    left: -600px
+}
+
+.CareerDecals2{
+    z-index: -3;
+    position: absolute;
+    top: -1600px;
+    opacity: 30%;
+    scale: 50%;
+    left: 900px;
+    transform: rotate(90deg);
+}
+
+.Decals{
+    z-index: -1;
+    position: absolute;
+    top: -200px;
+    opacity: 30%;
+    scale: 60%;
+    left: 1300px
+}
+
+.Decals1{
+    z-index: -1;
+    position: absolute;
+    top: 500px;
+    opacity: 30%;
+    scale: 50%;
+    left: -390px;
+    transform: rotate(90deg);
+}
+
+.Lineworkvert1{
+    z-index: -2;
+    position: absolute;
+    scale: 30%;
+    left: 1570px;
+    top: -800px;
+}
+
+.Lineworkvert2{
+    position: absolute;
+    scale: 25%;
+    left: 250px;
+    top: -100px;
+}
+
+.Lineworkvert3{
+    z-index: 3;
+    position: absolute;
+    scale: 30%;
+    left: 1700px;
+    top: 600px;
+}
+
+.LineworkHor1{
+    z-index: -1;
+    position: absolute;
+    scale: 40%;
+    left: -680px;
+    top: 800px;
+}
+
+.LineworkHor2{
+    z-index: 1;
+    position: absolute;
+    scale: 44%;
+    left: -670px;
+    top: 1440px;
+    transform: rotate(180deg);
+}
+
+.Pentagram{
+    position: absolute;
+    top: 590px;
+    left: 310px;
+    scale: 70%;
+    transition: transform .7s;
+}
+
+.Pentagram:hover{
+    transform: scale(1.2);
+}
+
+.twoX{
+    position: absolute;
+    top: 280px;
+    left: 500px;
+    scale: 60%;
+    transition: transform .7s;
+}
+
+.twoX:hover{
+    transform: scale(1.2);
+}
+
+.Canva{
+    position: absolute;
+    top: -380px;
+    left: -1150px;
+    scale: 10%;
+    transition: transform .7s;
+}
+
+.Canva:hover{
+    transform: scale(1.2);
+}
+
+.Yale{
+    position: absolute;
+    scale: 20%;
+    top: -110px;
+    left: -100px;
+    transition: transform .7s;
+}
+
+.Yale:hover{
+    transform: scale(1.2);
+}
+
+.Samsung{
+    position: absolute;
+    scale: 10%;
+    top: 690px;
+    left: 300px;
+    transition: transform .7s;
+}
+
+.Samsung:hover{
+    transform: scale(1.2);
+}
+
+.Morgan{
+    position: absolute;
+    scale: 60%;
+    left: 940px;
+    top: 990px;
+    transition: transform .7s;
+}
+
+.Morgan:hover{
+    transform: scale(1.2);
+}
+
+.Smithsonian{
+    scale: 10%;
+    position: absolute;
+    top: 180px;
+    left: 200px;
+    transition: transform .7s;
+}
+
+.Smithsonian:hover{
+    transform: scale(1.2);
+}
+
+.Experience h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    font-size: 47pt;
+    top: 220px;
+    left: 1150px;
+}
+
+.Experience ul{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    font-size: 17pt;
+    text-align: center;
+    top: 350px;
+    left: 1150px;
+}
+
+.Experience ul2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    font-size: 17pt;
+    text-align: center;
+    top: 510px;
+    left: 1260px;
+}
+
+.Experience ul3{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    font-size: 17pt;
+    text-align: center;
+    top: 630px;
+    left: 1240px;
+}
+
+.Experience ul4{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    font-size: 17pt;
+    text-align: center;
+    top: 730px;
+    left: 1215px;
+}
+
+.Clients h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    font-size: 47pt;
+    top: 990px;
+    left: 450px;
+}
+
+.Clients ul{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    font-size: 22pt;
+    top: 1110px;
+    left: 465px;
+}
+
+.Clients ul1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    font-size: 22pt;
+    top: 1220px;
+    left: 470px;
+}
+
+.Clients ul2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    font-size: 22pt;
+    top: 1310px;
+    left: 380px;
+}
+
+.GoldCube{
+    position: absolute;
+    scale: 90%;
+    top: 1750px;
+    left: 300px;
+    transition: transform .7s;
+}
+
+.GoldCube:hover{
+    transform: scale(1.2);
+}
+
+.Achievements h1{
+    position: absolute;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 47pt;
+    top: 1600px;
+    left: 1180px;
+}
+
+.Achievements ul{
+    position: absolute;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 22pt;
+    top: 1730px;
+    left: 1150px;
+}
+
+.Achievements ul1{
+    position: absolute;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 22pt;
+    top: 1840px;
+    left: 1230px;
+}
+
+.Achievements ul2{
+    position: absolute;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 22pt;
+    top: 1960px;
+    left: 1140px;
+}

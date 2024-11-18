@@ -1,0 +1,193 @@
+html{
+    background-color: #97e49b;
+    margin: 0;
+}
+
+body{
+    margin: auto 0;
+    overflow-x: hidden;
+    
+}
+
+nav{
+    z-index: 5;
+    position: fixed;
+    top: 0px;
+    width: 100%
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:#6b9c5c;
+    overflow: hidden;
+    text-align: center;
+}
+
+nav li{
+    float: left;
+}
+
+nav li a{
+    float: left;
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+li a:hover{
+    background-color: rgb(49, 102, 18);
+}
+
+.StyleDecal1{
+    z-index: -1;
+    position: absolute;
+    top: -900px;
+    opacity: 50%;
+    scale: 50%;
+    left: -600px;
+}
+
+.StyleDecal2{
+    z-index: -1;
+    position: absolute;
+    top: -300px;
+    opacity: 50%;
+    scale: 50%;
+    left: 600px;
+    transform: rotate(90deg);
+}
+
+.Decal{
+    z-index: -1;
+    position: absolute;
+    top: -1300px;
+    opacity: 50%;
+    scale: 40%;
+    left: 1500px;
+    transform: rotate(90deg);
+}
+
+.StyleHead1 h1{
+    position: absolute;
+    font-size: 100pt;
+    color: black;
+    top: -10px;
+    left: 780px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.StyleHead2 h1{
+    color:rgb(221, 126, 126);
+    position: absolute;
+    font-size: 100pt;
+    top: -10px;
+    left: 775px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.EddieStyle{
+    position: absolute;
+    top: 300px;
+    left: 200px;
+    transition: transform .7s;
+}
+
+.EddieStyle:hover{
+    transform: scale(1.20);
+}
+
+.ColorWorks{
+    position: absolute;
+    top: 600px;
+    left: 1025px;
+    scale: 60%;
+    transition: transform .7s;
+}
+
+.ColorWorks:hover{
+    transform: scale(1.2);
+}
+
+.Eclecticism{
+    position: absolute;
+    top: 1190px;
+    left:10px;
+    scale: 70%;
+    transition: transform .7s;
+}
+
+.Eclecticism:hover{
+    transform: scale(1.2);
+}
+
+
+#rectangle{
+    background-color: rgb(44, 80, 56);
+    width: 30%;
+    height: 320px;
+    left:1100px;
+    top: 330px;
+    position: absolute;
+    opacity: 40%;
+}
+
+.Generalist p{
+    position: absolute;
+    top: 300px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 28pt;
+    left:1120px;
+}
+
+#rectangle2{
+    background-color: rgb(44, 80, 56);
+    width: 20%;
+    height: 320px;
+    left:700px;
+    top: 880px;
+    position: absolute;
+    opacity: 40%;
+}
+
+.ColorStyle p{
+    position: absolute;
+    top: 850px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 28pt;
+    left: 710px;
+    text-align: right;
+}
+
+#rectangle3{
+    background-color: rgb(44, 80, 56);
+    width: 20%;
+    height: 280px;
+    left:190px;
+    top: 880px;
+    position: absolute;
+    opacity: 40%;
+}
+
+#rectangle4{
+    z-index: -9;
+    background-color: rgb(114, 170, 132);
+    width: 100%;
+    height: 980px;
+    top: 780px;
+    position: absolute;
+    opacity: 40%;
+}
+
+.EclecticStyle p{
+    position: absolute;
+    top: 850px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 28pt;
+    left: 200px;
+    text-align: left;
+}

@@ -1,0 +1,160 @@
+html{
+    background-color: #6a6cca;
+    margin: 0;
+}
+
+.EddieProfile{
+    position: absolute;
+    top: 220px;
+    left: 250px;
+    scale: 70%;
+    transition: transform .7s;
+}
+
+.EddieProfile:hover{
+    transform: scale(1.25);
+}
+
+.Wandsworth{
+    position: absolute;
+    top: 460px;
+    left: 550px;
+    scale: 30%;
+    transition: transform .7s;
+}
+
+.Wandsworth:hover{
+    transform: scale(1.25);
+}
+
+.Decals{
+    position: absolute;
+    top: -200px;
+    left: 1300px;
+    transform: rotate(90deg);
+    scale: 40%;
+    opacity: 50%;
+}
+
+body{
+    margin: auto 0;
+    overflow-x: hidden;
+    
+}
+
+nav{
+    z-index: 5;
+    position: fixed;
+    top: 0px;
+    width: 100%
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:#6293c4;
+    overflow: hidden;
+    text-align: center;
+}
+
+nav li{
+    float: left;
+}
+
+nav li a{
+    float: left;
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+li a:hover{
+    background-color: rgb(25, 90, 165);
+}
+
+.AboutHead1 h1{
+    position: absolute;
+    font-size: 100pt;
+    color: black;
+    top: -10px;
+    left: 760px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.AboutHead2 h1{
+    color:rgb(105, 94, 94);
+    position: absolute;
+    font-size: 100pt;
+    top: -10px;
+    left: 755px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#rectangle {
+    background-color: rgb(42, 127, 148);
+    width: 30%;
+    height: 300px;
+    left: 950px;
+    top: 320px;
+    position: absolute;
+    opacity: 80%;
+}
+
+.Life p{
+    position: absolute;
+    top: 295px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 29pt;
+    left: 960px;
+}
+
+#rectangle2 {
+    background-color: rgb(111, 181, 199);
+    width: 30%;
+    height: 250px;
+    left: 270px;
+    top: 820px;
+    position: absolute;
+    opacity: 80%;
+}
+
+.Studies p{
+    position: absolute;
+    top: 795px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 29pt;
+    left: 280px;
+}
+
+.AboutDecals{
+    z-index: -1;
+    position: absolute;
+    opacity: 50%;
+    scale: 60%;
+    top: -1100px;
+    left: -480px;
+}
+
+.AboutDecals1{
+    z-index: -1;
+    position: absolute;
+    opacity: 50%;
+    scale: 60%;
+    top: -2000px;
+    left: 480px;
+}
+
+#rectangle3 {
+    z-index: -1;
+    background-color: rgb(49, 42, 153);
+    width: 200%;
+    height: 950px;
+    left:-70px;
+    top: 570px;
+    position: absolute;
+    opacity: 80%;
+}
